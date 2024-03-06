@@ -1,0 +1,157 @@
+.resume {
+  min-height: 100vh;
+  padding: 60px 102px;
+  background-color: var(--dark);
+  position: relative;
+  padding-top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.resume--grid {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 4fr 7fr;
+  grid-template-areas: "detail experience";
+}
+
+.resume--grid h4 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%; /* 22.4px */
+  white-space: nowrap;
+}
+
+.resume--grid ul {
+  list-style-position: inside;
+  margin-top: 24px;
+}
+
+.resume--grid ul li *,
+.resume--grid ul li {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  opacity: 0.6;
+}
+
+.resume--grid--detail {
+  grid-area: detail;
+  display: flex;
+}
+
+.resume--grid--detail--pic {
+  width: 100px;
+  height: 100px;
+}
+
+.resume--grid--detail--pic img {
+  display: block;
+  width: 100%;
+}
+
+.resume--grid--detail--data {
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.resume--grid--detail--data h2 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 32px */
+  letter-spacing: -1.28px;
+  white-space: nowrap;
+}
+
+.resume--grid--detail--data--name h4 {
+  opacity: 0.6;
+}
+
+.resume--grid--detail--data--skills h4 {
+  text-transform: uppercase;
+}
+
+.resume--grid--detail--data--skills li {
+  white-space: nowrap;
+}
+
+.resume--grid--detail--data--name--icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.resume--grid--detail--data--skills .double {
+  display: flex;
+  gap: 50px;
+}
+
+.resume--grid--experience {
+  grid-area: experience;
+}
+
+.resume--grid--experience--head {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.resume--grid--experience--body {
+  padding-top: 50px;
+}
+
+@media (max-width: 1500px) {
+  .resume {
+    padding: 40px 60px;
+    padding-top: 140px;
+  }
+}
+
+@media (max-width: 700px) {
+  .resume {
+    padding: 20px;
+    padding-top: 90px;
+    height: fit-content;
+  }
+
+  .resume--grid {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "detail"
+      "experience";
+    row-gap: 60px;
+  }
+
+  .resume--grid--detail {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .resume--grid--detail--pic {
+    width: 60px;
+    height: 60px;
+  }
+
+  .resume--grid--detail--data {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .resume--grid--experience--head {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}

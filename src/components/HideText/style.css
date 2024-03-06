@@ -1,0 +1,46 @@
+.hideText {
+  position: relative;
+  overflow: hidden;
+  display: inline;
+  overflow: hidden;
+}
+
+.hideText--con {
+  position: relative;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  line-height: inherit;
+}
+
+.hideText > div:not(.hideText--overlay) {
+  opacity: 0;
+  display: inline-flex;
+}
+
+.hideText .hideText--overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hideText--wrapper{
+  overflow: hidden;
+  display: inline-block;
+  max-height: 1em;
+  height: 1em;
+  margin-right: 0.4ch;
+}
+
+.hideText .hideText--overlay span{
+  position: relative;
+}
+
+.hideText--con span {
+  max-height: 1em;
+  line-height: inherit;
+  font-size: inherit;
+}

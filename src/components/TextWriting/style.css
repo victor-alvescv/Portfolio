@@ -1,0 +1,28 @@
+.textWritingContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.textWritingContainer--pointer {
+  position: absolute;
+  bottom: 0.15ch;
+  left: 0;
+  width: 1ch;
+  height: 5px;
+  background-color: currentColor;
+  border-radius: 1ch;
+  transition: all 0.1s linear;
+  opacity: 0;
+  /* animation: blink 1s ease infinite; */
+
+}
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  0%,
+  100% {
+    opacity: 0;
+  }
+}

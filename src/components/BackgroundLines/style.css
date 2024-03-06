@@ -1,0 +1,79 @@
+.backgroundLines {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 102px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.backgroundLines--line {
+  height: 100%;
+  /* opacity: 0.07; */
+  border-left: 1px solid rgba(233, 238, 241, 0.07);
+  position: relative;
+}
+
+.backgroundLines--line--glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  background-color: var(--main);
+  box-shadow: 0 0 50px 1px var(--main);
+}
+
+.backgroundLines--line--glow::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 1px;
+  height: 200px;
+  transform: translate(-50%, 0%);
+  background: linear-gradient(to bottom, var(--main), transparent);
+}
+
+.backgroundLines--line--glow__animate {
+  animation: lineAnimation 1.5s cubic-bezier(0.5, 1, 0.89, 1) forwards;
+}
+
+@keyframes lineAnimation {
+  0% {
+    transform: translate(-50%, -50%) translateY(40vh);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(-40vh);
+  }
+}
+
+.backgroundLines__light .backgroundLines--line {
+  border-left: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+
+@media (max-width: 1500px) {
+  .backgroundLines {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .backgroundLines {
+    padding: 0 20px;
+  }
+}

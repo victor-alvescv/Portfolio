@@ -1,0 +1,95 @@
+.Icon {
+  display: inline-flex;
+  padding: 14px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(17px);
+  position: relative;
+
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.05) 25%,
+    rgba(255, 255, 255, 0.14) 50%,
+    rgba(255, 255, 255, 0.05) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeletonAnimation 2s linear forwards;
+  animation-delay: 3s;
+}
+
+@keyframes skeletonAnimation {
+  to {
+    background-position: 200% 0;
+  }
+}
+
+.Icon--icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.Icon--border {
+  display: block;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  background-color: #959292;
+  transition: 0.3s ease;
+}
+
+.Icon:hover .Icon--border {
+  background-color: var(--light);
+}
+
+.Icon--lt {
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.Icon--lb {
+  bottom: 0%;
+  left: 0%;
+  transform: translate(-50%, 50%);
+}
+
+.Icon--rt {
+  top: 0%;
+  right: 0%;
+  transform: translate(50%, -50%);
+}
+
+.Icon--rb {
+  bottom: 0%;
+  right: 0%;
+  transform: translate(50%, 50%);
+}
+
+.Icon__light {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.Icon__light .Icon--border {
+  border-color: var(--grayL);
+}
+
+.Icon__light:hover .Icon--border {
+  border-color: var(--dark);
+}
+
+@media (max-width: 1500px) {
+  .Icon--icon {
+    width: 24px;
+    height: 24px;
+  }
+  .Icon {
+    padding: 10px;
+  }
+}

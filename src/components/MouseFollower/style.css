@@ -1,0 +1,39 @@
+.MouseFollower{
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    top: -100px;
+    left: -100px;
+    border: 1px solid #fff;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    mix-blend-mode: difference;
+    display: grid;
+    place-content: center;
+    pointer-events: none;
+}
+
+.MouseFollower > div{
+    width: 12px;
+    aspect-ratio: 1;
+    background-color: #fff;
+  box-shadow: 0 0 10px 0px #ffffff50;
+}
+
+@media (max-width: 1500px) {
+    .MouseFollower{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .MouseFollower > div{
+        width: 8px;
+    }
+  }
+
+
+  @media (max-width: 700px) {
+    .MouseFollower{
+        display: none;
+    }
+  }

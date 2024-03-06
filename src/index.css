@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --main: #f70041;
+  --gray: rgba(255, 255, 255, 0.5);
+  --grayL: rgba(0, 0, 0, 0.5);
+  --light: #e9eef1;
+  --dark: #060000;
+
+  --NML: "NeueMachina-Light";
+  --NMR: "NeueMachina-Regular";
+  --NMU: "NeueMachina-Ultrabold";
+
+  --NML-I: "NeueMachina-Light-Italic";
+  --NMR-I: "NeueMachina-Regular-Italic";
+  --NMU-I: "NeueMachina-Ultrabold-Italic";
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--dark);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: var(--dark);
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: var(--NMR);
+}
+
+@font-face {
+  font-family: "NeueMachina-Light";
+  src: url("./assets/neue-machina/NeueMachina-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueMachina-Regular";
+  src: url("./assets/neue-machina/NeueMachina-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueMachina-Ultrabold";
+  src: url("./assets/neue-machina/NeueMachina-Ultrabold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueMachina-Light-Italic";
+  src: url("./assets/neue-machina/NeueMachina-Light-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueMachina-Regular-Italic";
+  src: url("./assets/neue-machina/NeueMachina-Regular-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueMachina-Ultrabold-Italic";
+  src: url("./assets/neue-machina/NeueMachina-Ultrabold-Italic.otf") format("opentype");
+}
+
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+main {
+  width: 100%;
+}
+
+main > * {
+  width: 100%;
+  overflow-x: hidden;
+}

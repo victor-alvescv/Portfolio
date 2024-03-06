@@ -1,0 +1,35 @@
+.techCard {
+  grid-column: span 1;
+}
+
+.techCard h3 {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+  letter-spacing: -0.8px;
+}
+
+.techCard p {
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  opacity: 0.6;
+}
+
+@media (max-width: 1500px) {
+  .techCard h3 {
+    margin-top: 1rem;
+    font-size: 16px;
+  }
+
+  .techCard p {
+    margin-top: 0.5rem;
+    font-size: 14px;
+  }
+}

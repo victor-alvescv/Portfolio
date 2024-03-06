@@ -1,0 +1,20 @@
+.interactiveMarquee {
+    display: flex;
+    /* height: 100vh; */
+    align-items: center;
+    cursor: -webkit-grab;
+    z-index: 1;
+  }
+  
+  .interactiveMarquee--item {
+    padding-right: 0.25em;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    /* will-change: transform; */
+  }
+  
+  .interactiveMarquee--drag {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }

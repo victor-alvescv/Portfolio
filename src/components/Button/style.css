@@ -1,0 +1,104 @@
+.btn {
+  display: inline-flex;
+  height: 60px;
+  padding: 0px 18px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(17px);
+  position: relative;
+}
+
+.btn--icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.btn--label {
+  color: var(--light);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  text-transform: uppercase;
+}
+
+.btn--border {
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border: 1px solid var(--gray);
+  transition: 0.3s ease;
+}
+
+.btn:hover .btn--border {
+  border-color: var(--light);
+}
+
+.btn--lt {
+  left: -1px;
+  top: -1px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.btn--lb {
+  left: -1px;
+  bottom: -1px;
+  border-right: none;
+  border-top: none;
+}
+
+.btn--rt {
+  right: -1px;
+  top: -1px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.btn--rb {
+  right: -1px;
+  bottom: -1px;
+  border-left: none;
+  border-top: none;
+}
+
+.btn__light {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.btn__light .btn--border {
+  border-color: var(--grayL);
+}
+
+.btn__light:hover .btn--border {
+  border-color: var(--dark);
+}
+
+@media (max-width: 1500px) {
+  .btn {
+    height: 40px;
+    padding: 0px 10px;
+  }
+
+  .btn--icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .btn--label {
+    font-size: 14px;
+  }
+
+  .btn--border {
+    width: 6px;
+    height: 6px;
+  }
+}
