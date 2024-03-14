@@ -30,27 +30,54 @@ export default function Projects() {
   const works = [
     {
       client: "Frontend Simplified",
+      link: (
+        <a
+          className="works__links"
+          target="_blank"
+          href="https://summarist-three.vercel.app"
+        >
+          LINK
+        </a>
+      ),
       year: "2023",
       img: work1,
       title: "Building from the ground up a book store",
       detail:
-        "Working at a startup brought the opportunity to bring many projects from their early days of development to a fully fledged application, I've had the opportunity to be a core part of multiple projects at preezie.",
+        `Summarist upgrades online libraries with visuals and user-friendly features. It provides a wide book selection via APIs and ensures smooth login, registration, and secure payments. This project highlights my focus on innovation and user satisfaction.`,
     },
     {
       client: "Frontend Simplified",
-      year: "2022",
+      link: (
+        <a
+          className="works__links"
+          target="_blank"
+          href="https://victor-internship.vercel.app"
+        >
+          LINK
+        </a>
+      ),
+      year: "2023",
       img: work2,
       title: "Creating the future as a shop",
       detail:
-        "Empowering students with the knowledge and skills they need to succeed in the dynamic field of programming. Having tutored 100's of students within the Frontend simplified curriculum, this gives me a great inspiration to lead.",
+        "Introducing Ultraverse, a futuristic NFT marketplace simulation. It offers sleek design, curated NFTs, and transparent pricing. Ultraverse aims to redefine digital ownership, showcasing my dedication to pioneering technology and user experience.",
     },
     {
       client: "Prifina",
+      link: (
+        <a
+          className="works__links"
+          target="_blank"
+          href="https://air-wise.vercel.app"
+        >
+          LINK
+        </a>
+      ),
       year: "2023",
       img: work3,
       title: "Information, weather and health",
       detail:
-        "Considered the best project ever seen from the company, Airwise was created by 4 people in the period of three months without one single dollar. A platform capable of giving so many information about your health and weather. It shows my abilitys at working as a team in such a big project with that high quality, inspirating me to keep going and believe in myself and in my work!",
+        "Airwise, the company's standout project, was developed by a team of four individuals in just three months, without any financial investment. It's a platform offering comprehensive health and weather information. This project underscores my teamwork skills, delivering high-quality results quickly, fueling my confidence in future endeavors.",
     },
   ];
 
@@ -113,8 +140,9 @@ export default function Projects() {
         >
           <p className="theme--detail">
             <ScrambleText delay={1}>
-              Discover a curated portfolio of projects where each line of code
-              tells a story of problem-solving, creativity, and technical
+              Explore an immersive collection within my curated portfolio, where
+              every line of code reveals a compelling narrative of ingenious
+              problem-solving, boundless creativity, and unparalleled technical
               finesse.
             </ScrambleText>
           </p>

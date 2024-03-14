@@ -20,6 +20,7 @@
 
 .projects--grid--content {
   grid-area: content;
+  z-index: 4;
 }
 
 .projects--grid--content--heading h2 {
