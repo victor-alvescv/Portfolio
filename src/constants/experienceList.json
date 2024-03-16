@@ -1,40 +1,41 @@
 [
   {
-    "company": "preezie",
+    "company": "Prifina",
     "role": "Software Developer (Frontend)",
     "resps": [
-      "Developed a scalable web widget for 900,000 users, amplifying user satisfaction while ensuring seamless maintenance.",
-      "Revamped CI/CD pipelines through Bitbucket Pipelines and Azure Devops, slashing deployment time and enhancing agility.",
+      "Created and developed an application capable of receiving and giving information about weather and health, with fully developed algorithms.",
+      "Worked with a small, but strong group of developers and designers to create the whole application under the period of three months.",
+      "Utilizing personalized API's for health data and 'OpenWeather' for climate information, we successfully merged them to create an innovative application without any financial investment, relying solely on passion and dedication.",
+      "Integrated a dynamic landing page meticulously showcasing the intricacies of our idea and its functionality in comprehensive detail.",
+      "Through rigorous testing and optimization, we achieved an impressive 80% increase in efficiency, delivering a seamless user experience and valuable insights.",
       "Showcased expertise in diverse development areas, fostering a versatile and adaptable workforce.",
-      "Led innovative proof of concepts, driving continuous product improvement.",
-      "Steered the rapid transformation of a CMS into a production-ready application within a 3-month timeline.",
-      "Provided pivotal support for client deployments, enabling the business to gain value rapidly.",
-      "Architected a backend system to continuously monitor the uptime of all user interfaces, ensuring optimal performance.",
-      "Streamlined widget implementation by condensing it into a single-line code snippet, enhancing accessibility and ease of integration.",
-      "Revamped 15+ landing pages within a two-week timeframe in anticipation of investor discussion.",
-      "Revitalized and modernized legacy code into a new, customer-centric UI that received great feedback from our customer success team, enhancing user experience and satisfaction.",
+      "Implemented over 20 diverse recommendations for daily actions, offering users a wide range of options to improve their day. Additionally, incorporated more than 30 weather statuses and provided 5 distinct outcomes tailored to user health, ensuring personalized and comprehensive support.",
       "Recognized for accelerated growth and proactive leadership, advancing to further levels of software development.",
+      "Created the most exceptional project ever witnessed by the company, according to the company CEO.",
+      "Revamped legacy code into a customer-centric UI, earning accolades from company leadership and enhancing user satisfaction.",
+      "Implemented an interactive Q&A section within the dashboard, empowering users to find answers to their inquiries efficiently, saving valuable time and resources for both users and support staff.",
       "Demonstrated adeptness in spearheading projects, selecting optimal tech stacks, and consistently delivering project outcomes.",
-      "Recognized as the company’s ‘Values Champion of 2022’ for embodying an unwavering commitment to the business, supporting reliably and being dependable.",
-      "Partook in an Open-AI proof of concept for a product recommendation quiz, mostly working on the frontend."
+      "Created a multifunctional dashboard featuring weather and health data, actionable recommendations, air quality graphics, and support for Fahrenheit/Celsius, with accessibility options. Achieved 30% higher engagement and 40% lower bounce rate.",
+      "Implemented integration of health parameter technology with the company's application using private APIs, enhancing data connectivity and enabling seamless access to vital health metrics within the system."
     ],
-    "date": "Aug 2021 - Current"
+    "date": "Oct 2023 - Dec 2023"
   },
   {
-    "company": "Frontend Simplified",
-    "role": "Programming mentor & Tutor",
+
+    "company": "Skinstric",
+    "role": "Software Developer (Frontend)",
     "resps": [
-      "Designed and implemented personalized learning plans tailored to each student's skill level and learning style.",
-      "Conducted weekly coding workshops to cover advanced topics and industry best practices in Frontend development.",
-      "Provided constructive feedback and code reviews to help students improve their coding skills and address areas of improvement.",
-      "Created and curated a comprehensive set of educational resources, including coding exercises, projects, and documentation, to support the learning process.",
-      "Collaborated with other mentors to develop and refine the curriculum, ensuring it stays current with the latest trends and technologies in Frontend development.",
-      "Organized and participated in regular one-on-one mentoring sessions to address individual student challenges and provide additional guidance.",
-      "Facilitated group discussions and coding challenges to promote a collaborative and engaging learning environment.",
-      "Stayed updated on industry advancements and emerging technologies to incorporate relevant and cutting-edge content into the curriculum.",
-      "Initiated and managed community-building activities, fostering a sense of camaraderie among students and promoting a positive learning culture.",
+      "Conducted various A/B tests on product pricing, new subscription models, upsells, and downsells, leading to a boost in the LTV (lifetime value) by 23%.",
+      "Wrote accessible React components/features and improved UX, thereby reducing CAC from $450 to $250.",
+      "Implemented advanced SEO strategies, including keyword optimization, server side rendering and blog, leading to a 40% increase in organic traffic and elevating the website's ranking on the first page of search results.",
+      "Enhanced page responsiveness and accessibility to ensure compatibility across all platforms and devices, leading to a 20% increase in user satisfaction rate.",
+      "Collaborated with fellow developers to refine and stay abreast of the latest trends and technologies in frontend development, ensuring the continual improvement of my work.",
+      "Spearheaded the migration of Skinstric from WordPress to React in 10 days (one sprint), increasing site speed by 50% resulting in a decreased load time from 8 seconds to 4 seconds and 25% reduction in user bounce rate.",
+      "Implemented measures to enhance maintainability, resulting in a notable 30% acceleration in the deployment of new feature updates, thereby bolstering development efficiency and agility.",
+      "Stayed updated on industry advancements and emerging technologies to incorporate relevant and cutting-edge content into the application.",
+      "Worked in harmony with developers, designers, and the people resposible for the ideas, being able to sintase their idea into code and physical",
       "Monitored and tracked the progress of each student, celebrating milestones and proactively addressing any obstacles to ensure a successful learning journey."
     ],
-    "date": "Aug 2021 - Dec 2022"
+    "date": "Fev 2023"
   }
 ]
