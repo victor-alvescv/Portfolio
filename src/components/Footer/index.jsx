@@ -54,14 +54,14 @@ export default function Footer() {
     {
       label: "Name",
       type: "text",
-      id: "name",
+      id: "user_name",
       placeholder: "Enter name",
       stateKey: "name",
     },
     {
       label: "Email",
       type: "email",
-      id: "email",
+      id: "user_email",
       placeholder: "hello@mail.com",
       stateKey: "email",
     },
@@ -146,7 +146,7 @@ export default function Footer() {
         <div className="footer--grid--form">
           {inputFields.map((field, index) => (
             <motion.div key={index} initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 0.5 * (index + 1) }} className="input--div">
-              <label htmlFor={field.id}>{field.label}</label>
+              <label htmlFor={field.id}>{field.id}</label>
               {field.type === "textarea" ? <textarea name={field.id} id={field.id} placeholder={field.placeholder} rows={field.rows} wrap={field.wrap} onChange={(e) => handleInputChange(field.stateKey, e.target.value)}></textarea> : <input type={field.type} name={field.id} id={field.id} placeholder={field.placeholder} onChange={(e) => handleInputChange(field.stateKey, e.target.value)} />}
               <motion.div
                 initial="hidden"
