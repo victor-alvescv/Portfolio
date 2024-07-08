@@ -10,6 +10,31 @@
   white-space: nowrap;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  padding-top: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #141414;
+  padding-top: 30px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e2c2c;
+  border-radius: 50px;
+  padding-top: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  padding-top: 30px;
+}
+
 .theme--text span.hash {
   color: var(--gray);
   margin: 0 1ch;

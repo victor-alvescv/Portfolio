@@ -101,7 +101,7 @@ export default function Header() {
           </a>
           <span className="header--hash">{"//"}</span>
           <a
-            href="https://docs.google.com/document/d/1eoDcsKkNFYl0iHpXfbQe3CuV34wxfxHQKoJoktNOK4g/edit?usp=sharing"
+            href="../../../public/Resume.pdf"
             target={"_blank"}
             rel="noopener noreferrer"
           >

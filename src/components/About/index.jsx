@@ -84,7 +84,7 @@ export default function About() {
         >
           <p className="theme--detail--dark">
             <ScrambleText delay={2}>
-              As a Freelance Frontend Developer, I embrace the opportunity to
+              As a Frontend Developer, I embrace the opportunity to
               tackle highly challenging engineering problems on a daily basis.
               Continuously refining my skills and knowledge, I am driven by a
               passion for developing innovative technologies that not only meet
