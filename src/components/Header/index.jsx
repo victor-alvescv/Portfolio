@@ -101,7 +101,7 @@ export default function Header() {
           </a>
           <span className="header--hash">{"//"}</span>
           <a
-            href="../../../public/Resume.pdf"
+            href="Resume.pdf"
             target={"_blank"}
             rel="noopener noreferrer"
           >
