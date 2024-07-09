@@ -89,7 +89,7 @@ export default function Resume() {
                 </a>
                 <a
                   target="_blank"
-                  href="https://docs.google.com/document/d/1eoDcsKkNFYl0iHpXfbQe3CuV34wxfxHQKoJoktNOK4g/edit?usp=sharing"
+                  href="Resume.pdf"
                 >
                   <Icon img={fileIcon} />
                 </a>
